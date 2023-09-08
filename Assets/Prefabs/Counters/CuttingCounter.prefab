@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2567169689879336388}
   - component: {fileID: 67557224803176795}
   - component: {fileID: 5720460173387743080}
+  - component: {fileID: 7521641158613940478}
   m_Layer: 5
   m_Name: ProgressbarUI
   m_TagString: Untagged
@@ -118,6 +119,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cuttingCounter: {fileID: 2762279452719234744}
   barImage: {fileID: 3768364704395421293}
+--- !u!114 &7521641158613940478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3180910668662215909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6af3da463d4ff1a4da76ea458957221e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 2
 --- !u!1 &4789397966602156595
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,7 +519,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4589716710238282922, guid: d72bee846803d074784ffb8f64e993ca,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9043269185045780667}
   m_SourcePrefab: {fileID: 100100000, guid: d72bee846803d074784ffb8f64e993ca, type: 3}
 --- !u!4 &1397736938347197196 stripped
 Transform:
@@ -513,6 +531,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3230261056002398119}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1397736938347197197 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4589716710238282922, guid: d72bee846803d074784ffb8f64e993ca,
+    type: 3}
+  m_PrefabInstance: {fileID: 3230261056002398119}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9043269185045780667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397736938347197197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66933565f6f3a924594e15e5b0f9c01d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cuttingCounter: {fileID: 2762279452719234744}
 --- !u!1001 &3629374754421527746
 PrefabInstance:
   m_ObjectHideFlags: 0
