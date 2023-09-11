@@ -666,6 +666,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   counterTopPoint: {fileID: 5174020840699138951}
   cuttingRecipeSOArray:
-  - {fileID: 11400000, guid: 982a2cce3bffa724a9aa35c76aa24a2b, type: 2}
   - {fileID: 11400000, guid: 5d9a47cdf537e7b40b5b58c50a397967, type: 2}
+  - {fileID: 11400000, guid: 982a2cce3bffa724a9aa35c76aa24a2b, type: 2}
   - {fileID: 11400000, guid: 72840f1d09331e048aa8a0a02cf30ac1, type: 2}
