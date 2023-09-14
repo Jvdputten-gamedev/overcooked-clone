@@ -13,7 +13,6 @@ public class StoveCounterVisual : MonoBehaviour
     }
 
     private void StoveCounter_OnStateChanged(object sender, StoveCounter.OnStateCHangedEventArgs e){
-        Debug.Log("event triggered");
         bool showVisual = e.state == StoveCounter.State.Frying || e.state == StoveCounter.State.Fried;
         stoveOnGameObject.SetActive(showVisual);
         particlesGameObject.SetActive(showVisual);
