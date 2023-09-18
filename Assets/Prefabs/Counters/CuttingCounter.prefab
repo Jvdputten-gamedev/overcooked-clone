@@ -476,12 +476,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3629374754421527746}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &5174020840699138951 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8472380953720244037, guid: dfdf7b3208759e94e9a1ca5071fb3b4a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3629374754421527746}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6074124372939711059 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7355995518348949137, guid: dfdf7b3208759e94e9a1ca5071fb3b4a,
@@ -500,8 +494,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec9624218104e52499611cf807f992e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  counterTopPoint: {fileID: 5174020840699138951}
-  cuttingRecipeSOArray:
-  - {fileID: 11400000, guid: 5d9a47cdf537e7b40b5b58c50a397967, type: 2}
-  - {fileID: 11400000, guid: 982a2cce3bffa724a9aa35c76aa24a2b, type: 2}
-  - {fileID: 11400000, guid: 72840f1d09331e048aa8a0a02cf30ac1, type: 2}
+  counterTopPoint: {fileID: 0}
+  cuttingRecipeSOArray: []
