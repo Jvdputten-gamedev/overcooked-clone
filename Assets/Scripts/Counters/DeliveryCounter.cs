@@ -5,7 +5,6 @@ using UnityEngine;
 public class DeliveryCounter : BaseCounter
 {
     public override void Interact(Player player){
-        Debug.Log("Interact with delivery counter");
         if (player.HasKitchenObject()){
             if (player.GetKitchenObject().TryGetPlate(out PlateKitchenObject plateKitchenObject)){
                 // Only accepts plates
