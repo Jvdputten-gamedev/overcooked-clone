@@ -20,7 +20,7 @@ public class KitchenGameManager : MonoBehaviour
     private State state;
     private float countdownToSTartTimer = 3f;
     private float gamePlayingTimer;
-    private float gamePlayingTimerMax = 10f;
+    private float gamePlayingTimerMax = 30f;
     private bool isGamePaused = false;
 
     private void Awake() {
@@ -84,7 +84,7 @@ public class KitchenGameManager : MonoBehaviour
         return state == State.GameOver;
     }
 
-    public float GetGamePlayingTImerNormalized(){
+    public float GetGamePlayingTimerNormalized(){
         return 1 - (gamePlayingTimer/gamePlayingTimerMax);
     }
 
